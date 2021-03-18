@@ -9,7 +9,7 @@ for x in \
   do
       (
         set -e
-        cd $x
+        cd "$x"
         rm -r *
         tar --strip-components=1 -xvf /mnt/builds/release/display/x86/$1/$x-$1.tar.bz2
         git add -A
