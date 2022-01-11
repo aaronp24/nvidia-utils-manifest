@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="github"
-           fetch="git://github.com/NVIDIA"
+           fetch="https://github.com/NVIDIA"
            pushurl="git@github.com:NVIDIA"/>
   <default revision="main"
            remote="github"
